@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+</head>
+<style>
+    .box1 {
+        background-color: aqua;
+        margin: 25px;
+        height: 21vh;
+        width: auto;
+        padding: 34px;
+    }
+
+    .xyz {
+        background-color: black;
+        margin: 25px;
+        height: 25vh;
+        width: 65vw;
+    }
+
+    .main {
+        border: 5px solid;
+        width: auto;
+        color: blue;
+    }
+
+    .b1 {
+        background-color: brown;
+        height: 55px;
+        margin: 24px;
+    }
+
+    .box1 {
+    background-color: aqua;
+    margin: 25px;
+    height: 21vh;
+    width: auto;
+    padding: 34px;
+
+    display: flex;              /* flex layout */
+    justify-content: space-between; /* left aur right me push karega */
+    align-items: center;        /* vertical center (optional) */
+}
+
+.b2 {
+    background-color: burlywood;
+    height: 20vh;
+    width: 25vw;
+}
+
+.b3 {
+    background-color: purple;
+    height: 20vh;
+    width: 25vw;
+}
+.last{
+    background-color:aquamarine;
+    height: 12vh;
+    width: 78vw;
+    margin: 12vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+</style>
+
+<body>
+
+    <div class="main">
+        <header class="b1"></header>
+        <div class="box1">
+            <div class="b2"></div>
+            <div class="b3"></div>
+        </div>
+
+        <footer class="last"> God is great , hello my name bappa knowns as Ganpati bappa</footer>
+    </div>
+</body>
+
+</html>
